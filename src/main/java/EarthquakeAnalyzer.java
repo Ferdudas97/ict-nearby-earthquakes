@@ -59,12 +59,12 @@ public class EarthquakeAnalyzer {
     }
 
     private static boolean checkIfCoordinatesEqual(final LngLatAlt cord1, final LngLatAlt cord2) {
-        return Math.round(cord1.getLongitude()) == Math.round(cord2.getLongitude())
-                && Math.round(cord2.getLatitude()) == Math.round(cord1.getLatitude()); // Coordinates are rounded because
+//        return Math.round(cord1.getLongitude()) == Math.round(cord2.getLongitude())
+//                && Math.round(cord2.getLatitude()) == Math.round(cord1.getLatitude()); // Coordinates are rounded because
                                                                                       // it`s hard to get two same coordinates
-/*
+
         return (cord1.getLongitude()) == (cord2.getLongitude()) && (cord2.getLatitude()) == (cord1.getLatitude());
-*/
+
 
     }
 
